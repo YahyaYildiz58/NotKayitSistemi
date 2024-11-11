@@ -20,7 +20,7 @@ namespace NotKayitSistemi
         {
             InitializeComponent();
         }
-        SqlConnection baglanti = new SqlConnection(@"Data Source=YAHYA\YAHYAMSSQL;Initial Catalog=NotKayitSistemi;Integrated Security=True;TrustServerCertificate=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source=**;Initial Catalog=NotKayitSistemi;Integrated Security=True;TrustServerCertificate=True");
         private string connectionString;
 
         private void frmogretmendetay_Load(object sender, EventArgs e)
